@@ -18,9 +18,9 @@ __docker-compose run web python manage.py makemigrations__
 
 then finally just
 __docker-compose up__
-should get you going. You can visit http://localhost:8000/admin to manage your database and login with the username you created on the createsuperuser step
+should get you going. You can visit http://localhost:8000/admin to manage your database and login with the username you created on the createsuperuser step. Basic app lives in index on http://localhost:8000/
 
 Links to the tutorials followed to set this up:
 
-[Understanding Django](https://learning.oreilly.com/videos/understanding-django/9781839214547/)
-[Docker Django Setup](https://docs.docker.com/compose/django/)
+- [Understanding Django](https://learning.oreilly.com/videos/understanding-django/9781839214547/)
+- [Docker Django Setup](https://docs.docker.com/compose/django/)
